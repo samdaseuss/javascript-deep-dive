@@ -5,7 +5,7 @@
  * - name : 식별자
  * - samdaseuss : 데이터
  */
-let name = "samdaseuss";
+let name = 'samdaseuss';
 
 /**
  * [ Function ]
