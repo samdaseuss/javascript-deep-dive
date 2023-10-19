@@ -1,11 +1,12 @@
 /**
  * [ Variable ]
  * 
- * - let : 키워드 혹은 명령어
- * - name : 식별자
+ * - let, const : 키워드 혹은 명령어
+ * - name, GITHUB_LINK : 식별자
  * - samdaseuss : 데이터
  */
 let name = 'samdaseuss';
+const GITHUB_LINK = 'https://github.com/samdaseuss';
 
 /**
  * [ Function ]
@@ -13,7 +14,7 @@ let name = 'samdaseuss';
  * - setName : 식별자
  */
 function setName() {
-
+    
 }
 
 /**
