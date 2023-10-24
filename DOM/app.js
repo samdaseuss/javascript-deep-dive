@@ -18,9 +18,11 @@ function createDiv(props) {
         })[0];
 }
 
+const creatorMap = {
+    h1: createH1,
+    div: createDiv
+}
+
 function createElement(type, props) {
-    switch(type) {
-        case 'h1': return createH1(props);
-        case 'div': return createDiv(props);
-    }
+    return creatorMap[type](props);
 }
