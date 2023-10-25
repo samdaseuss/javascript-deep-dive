@@ -26,3 +26,6 @@ const creatorMap = {
 function createElement(type, props) {
     return creatorMap[type](props);
 }
+
+const coupler = map => (type, props) => map[type][props];
+const createElement = coupler(creatorMap);
