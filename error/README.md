@@ -1,7 +1,4 @@
-# Javascript Deep Dive
-Javascript Deep Dive 레포지토리에서는 자바스크립트의 기초부터 심화까지의 내용을 다룹니다.
-
-에러 핸들링
+# 에러 핸들링
 
 에러핸들링 부분에서 다룰 주제는 크게 3가지로 나눠볼 수 있습니다.
 - Promise에서 발생한 에러 Catch 하기
@@ -21,4 +18,3 @@ Try/Catch/Finally
 
 [2] Try/Catch 구문 많이 사용하지 말 것
 - 대신 window.onerror를 사용하자.
-- 

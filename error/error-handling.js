@@ -52,7 +52,7 @@ getProfile().then(profile => {
 })
 
 try {
-    var myFunc = ();
+    var myFunc = {};
     myFunc();
 } catch(err) {
     console.log(err)
