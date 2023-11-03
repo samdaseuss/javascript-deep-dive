@@ -18,6 +18,27 @@ const vdom = {
             tag: 'p',
             props: {},
             children: ["TITLE"],
+        },
+        {
+            tag: 'ul',
+            props: {},
+            children: [
+                {
+                    tag: 'li',
+                    props: {},
+                    children:["첫번째 소제목"]
+                },
+                {
+                    tag: 'li',
+                    props: {},
+                    children:["두번째 소제목"]
+                },
+                {
+                    tag: 'li',
+                    props: {},
+                    children:["세번째 소제목"]
+                }
+            ]
         }
     ]
 }
